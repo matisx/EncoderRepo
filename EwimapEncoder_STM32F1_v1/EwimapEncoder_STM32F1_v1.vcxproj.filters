@@ -29,6 +29,18 @@
     <Filter Include="Header files\Device-specific files\StdPeriph">
       <UniqueIdentifier>{22153f59-ee35-4dbc-b892-d7ba0e83ba49}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source files\UART">
+      <UniqueIdentifier>{cbfbb1f0-9730-4de4-b48f-483249c95e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UART">
+      <UniqueIdentifier>{ac7975fe-cb06-4e08-bac0-56854bdb7f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\I2C">
+      <UniqueIdentifier>{eed27446-b3eb-487b-9af5-bb0dfecb03da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\I2C">
+      <UniqueIdentifier>{7227eaab-970a-400f-91d1-d631c01c5d71}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LEDBlink.cpp">
@@ -111,6 +123,30 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\Users\Mateusz\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F1xxxx\CMSIS_StdPeriph\CM3\CoreSupport\core_cm3.c">
       <Filter>Source files\Device-specific files\StdPeriph</Filter>
+    </ClCompile>
+    <ClCompile Include="source\UART\uart.c">
+      <Filter>Source files\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="source\UART\uart_common.c">
+      <Filter>Source files\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="source\UART\uart_hw.c">
+      <Filter>Source files\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="source\UART\usart_it.c">
+      <Filter>Source files\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HW\hw.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\I2C\i2c.c">
+      <Filter>Source files\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="source\I2C\i2c_common.c">
+      <Filter>Source files\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="source\I2C\i2c_hw.c">
+      <Filter>Source files\I2C</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -202,6 +238,30 @@
     </ClInclude>
     <ClInclude Include="..\..\..\..\Users\Mateusz\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F1xxxx\CMSIS_StdPeriph\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h">
       <Filter>Header files\Device-specific files\StdPeriph</Filter>
+    </ClInclude>
+    <ClInclude Include="source\UART\uart_hw.h">
+      <Filter>Header files\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="source\UART\uart_config.h">
+      <Filter>Header files\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="source\UART\uart_common.h">
+      <Filter>Header files\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="source\UART\uart.h">
+      <Filter>Header files\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="source\HW\hw.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\I2C\i2c_common.h">
+      <Filter>Header files\I2C</Filter>
+    </ClInclude>
+    <ClInclude Include="source\I2C\i2c_config.h">
+      <Filter>Header files\I2C</Filter>
+    </ClInclude>
+    <ClInclude Include="source\I2C\i2c_hw.h">
+      <Filter>Header files\I2C</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

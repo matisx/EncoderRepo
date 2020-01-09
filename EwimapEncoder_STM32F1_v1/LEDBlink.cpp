@@ -244,7 +244,7 @@ int main()
 
 	
 	//text
-	char c = 'A';
+	char c = '0';
 	uint16_t cnt = 0;
 	for (cnt = 0; cnt < 80; cnt++)
 	{
